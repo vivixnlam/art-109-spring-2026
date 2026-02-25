@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Images</title>
+</head>
+<body>
+  <div>
+    <!-- avoid spaces in filenames; use hyphens -->
+    <img src="images/chipi-chipi-cat.jpg" alt="">
+  </div>
+
+  <div>
+    <!-- corrected srcset (comma-separated) and optional sizes -->
+   <img srcset="images/kiley-fallback.jpg" alt=""
+   srcset = "images/kiley-640.jpg 640w,
+   images/kiley-1280.jpg 1280w,
+   images/kiley-1920.jpg 1920w"
+
+    >
+  </div>
+</body>
+</html>
