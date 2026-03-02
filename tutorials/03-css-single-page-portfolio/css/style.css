@@ -1,3 +1,60 @@
+/* CSS resets */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* respect user font size preferences */
+html {
+    font-size: 100%;
+}
+
+/* General CSS */
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(192, 184, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+
+}
+
+header {
+    padding: 6rem;
+    margin-bottom: 3rem;
+    background-color: #000000;
+    color: #eee;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    border-bottom: 1px solid #000000;
+}
+
+header hi {
+    font-size: 3rem;
+}
+main {
+    max-width: 60rem;
+    margin: 2rem auto;
+}
+
+.about-section, .portfolio-section, .contact-section {
+    margin-bottom: 5rem;
+}
+
+.about-content, .portfolio-content, .contact-content {
+    max-width: 60rem;
+    margin: 2rem auto;
+}
+
+.portfolio-item {
+    margin-bottom: 5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-section {
+    background-color: white
+}
+
+.portfolio-section {
+    background-color: azures
 }
