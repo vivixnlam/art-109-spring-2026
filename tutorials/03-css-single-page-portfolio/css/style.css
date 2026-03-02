@@ -48,9 +48,12 @@ main {
 .portfolio-item {
     margin-bottom: 5rem;
     padding: 2rem;
-    text-align: center;
 }
 
+.portfolio-item img {
+    max-width: 100%;
+    margin: 0 auto;
+}
 .about-section {
     background-color: white
 }
