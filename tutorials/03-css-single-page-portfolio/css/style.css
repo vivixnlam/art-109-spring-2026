@@ -53,6 +53,11 @@ main {
 .portfolio-item img {
     max-width: 100%;
     margin: 0 auto;
+    display: block;
+}
+
+.portfolio-item h3 {
+    margin: 1rem 0;
 }
 .about-section {
     background-color: white
