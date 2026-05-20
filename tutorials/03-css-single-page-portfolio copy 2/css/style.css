@@ -28,8 +28,8 @@ header {
     border-bottom: 1px solid #000000;
 }
 
-header hi {
-    font-size: 3rem;
+header h1 {
+text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc, -15px 15px 0px #00bdbd;
 }
 main {
     max-width: 60rem;
